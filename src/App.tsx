@@ -28,6 +28,8 @@ function App() {
   return loading ? (
     <Loader />
   ) : (
+    <>
+   
     <DefaultLayout>
       <Routes>
         <Route
@@ -63,10 +65,12 @@ function App() {
             <Profile/>
           }
         />
+        
         </Routes>
      
 
     </DefaultLayout>
+    </>
   );
 }
 
