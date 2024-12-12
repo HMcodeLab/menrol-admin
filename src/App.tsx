@@ -20,7 +20,7 @@ function App() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [pathname]);
-
+// hjshdgdhj
   useEffect(() => {
     setTimeout(() => setLoading(false), 1000);
   }, []);
